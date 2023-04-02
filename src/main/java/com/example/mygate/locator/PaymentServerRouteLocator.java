@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class PaymentServerRouteLocator {
 
   public static final String PAYMENT_GATEWAY_PATH = "/gate_payment_api/v1/";
-  public static final String PAYMENT_HOST = "http://localhost:8080/";
+  public static final String PAYMENT_HOST = "http://localhost:8081/";
 
   @Bean
   public RouteLocator paymentLocator(RouteLocatorBuilder builder) {
